@@ -41,7 +41,7 @@
             // 
             this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.panel1.Location = new System.Drawing.Point(18, 152);
+            this.panel1.Location = new System.Drawing.Point(281, 152);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(987, 817);
             this.panel1.TabIndex = 0;
@@ -51,7 +51,7 @@
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(18, 12);
+            this.panel2.Location = new System.Drawing.Point(281, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(987, 134);
             this.panel2.TabIndex = 1;
@@ -62,7 +62,7 @@
             // newGameBtn
             // 
             this.newGameBtn.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newGameBtn.Location = new System.Drawing.Point(1177, 158);
+            this.newGameBtn.Location = new System.Drawing.Point(33, 220);
             this.newGameBtn.Name = "newGameBtn";
             this.newGameBtn.Size = new System.Drawing.Size(180, 64);
             this.newGameBtn.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             this.player1Score.AutoSize = true;
             this.player1Score.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Score.Location = new System.Drawing.Point(1011, 46);
+            this.player1Score.Location = new System.Drawing.Point(28, 74);
             this.player1Score.Name = "player1Score";
             this.player1Score.Size = new System.Drawing.Size(74, 26);
             this.player1Score.TabIndex = 3;
@@ -84,7 +84,7 @@
             // 
             this.player2Score.AutoSize = true;
             this.player2Score.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player2Score.Location = new System.Drawing.Point(1011, 101);
+            this.player2Score.Location = new System.Drawing.Point(28, 129);
             this.player2Score.Name = "player2Score";
             this.player2Score.Size = new System.Drawing.Size(74, 26);
             this.player2Score.TabIndex = 4;
@@ -94,7 +94,7 @@
             // 
             this.turnLabel.AutoSize = true;
             this.turnLabel.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.turnLabel.Location = new System.Drawing.Point(1024, 264);
+            this.turnLabel.Location = new System.Drawing.Point(1336, 258);
             this.turnLabel.Name = "turnLabel";
             this.turnLabel.Size = new System.Drawing.Size(74, 26);
             this.turnLabel.TabIndex = 5;
@@ -102,9 +102,9 @@
             // 
             // turnPanel
             // 
-            this.turnPanel.Location = new System.Drawing.Point(1203, 264);
+            this.turnPanel.Location = new System.Drawing.Point(1341, 314);
             this.turnPanel.Name = "turnPanel";
-            this.turnPanel.Size = new System.Drawing.Size(130, 26);
+            this.turnPanel.Size = new System.Drawing.Size(160, 42);
             this.turnPanel.TabIndex = 6;
             this.turnPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.turnPanel_Paint);
             // 
@@ -113,7 +113,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1408, 983);
+            this.ClientSize = new System.Drawing.Size(1560, 983);
             this.Controls.Add(this.turnPanel);
             this.Controls.Add(this.turnLabel);
             this.Controls.Add(this.player2Score);

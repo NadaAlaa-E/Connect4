@@ -233,3 +233,23 @@ Log Entry : 9:26:45 PM Sunday, 11 December, 2016
   :
   :Player 1: NN, Highest score: 3	Player 2: A, Highest score: 0
 -------------------------------
+
+Log Entry : 9:40:42 PM Sunday, 11 December, 2016
+  :
+  :Player 1: N, Highest score: 1	Player 2: a, Highest score: 0
+-------------------------------
+
+Log Entry : 9:44:06 PM Sunday, 11 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: A, Highest score: 1
+-------------------------------
+
+Log Entry : 9:46:58 PM Sunday, 11 December, 2016
+  :
+  :Player 1: N, Highest score: 1	Player 2: A, Highest score: 0
+-------------------------------
+
+Log Entry : 9:49:29 PM Sunday, 11 December, 2016
+  :
+  :Player 1: N, Highest score: 1	Player 2: A, Highest score: 0
+-------------------------------

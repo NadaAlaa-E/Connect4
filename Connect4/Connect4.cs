@@ -30,7 +30,7 @@ namespace Connect4
             num_rows = Game.board.num_rows;
             num_columns = Game.board.num_columns;
             radius = panel1.Width / Game.board.num_columns;
-            columnRange = new float[num_columns];
+            columnRange = new float[num_columns + 1];
 
             SolidBrush brush = new SolidBrush(Color.Black);
             Graphics g = panel1.CreateGraphics();
@@ -46,6 +46,7 @@ namespace Connect4
                 x = eps/2;
                 y -= radius;
             }
+            columnRange[num_columns] = Connect4.ActiveForm.Width;
             panel2.Invalidate();
             turnPanel.Invalidate();
             UpdateScore(new List<Disc>());
@@ -80,14 +81,14 @@ namespace Connect4
 
             Point local = this.PointToClient(Cursor.Position);
             float mouseX_prev = mouseX;
+            float relativeX = panel1.Left;
             for (int i = 0; i + 1 < columnRange.Length; i++)
             {
-                if (columnRange[i] <= local.X && columnRange[i + 1] > local.X)
+                if (columnRange[i] + relativeX <= local.X && columnRange[i + 1] + relativeX > local.X)
                 {
                     mouseX = columnRange[i];
                     break;
                 }
-                if (i + 2 == columnRange.Length) mouseX = columnRange[i + 1];
             }
             if (mouseX == mouseX_prev) return;
             panel2.Invalidate();
@@ -153,8 +154,8 @@ namespace Connect4
         }
         private void UpdateScore(List<Disc> success)
         {
-            player1Score.Text = Game.player_1.name + "'s Score: " + Game.player_1.score.ToString();
-            player2Score.Text = Game.player_2.name + "'s Score: " + Game.player_2.score.ToString();
+            player1Score.Text = Game.player_1.name + "'s score: " + Game.player_1.score.ToString();
+            player2Score.Text = Game.player_2.name + "'s score: " + Game.player_2.score.ToString();
             Graphics g = panel1.CreateGraphics();
             SolidBrush brush = new SolidBrush(Color.Green);
             for (int i = 0; i < success.Count; i++)
@@ -192,8 +193,8 @@ namespace Connect4
         private void turnPanel_Paint(object sender, PaintEventArgs e)
         {
             turnPanel.BackColor = color[Game.turn];
-            if (Game.turn == 0) turnLabel.Text = Game.player_1.name + "'s turn";
-            else turnLabel.Text = Game.player_2.name + "'s turn";
+            if (Game.turn == 0) turnLabel.Text = Game.player_1.name + "'s turn.";
+            else turnLabel.Text = Game.player_2.name + "'s turn.";
         }
 
     }
