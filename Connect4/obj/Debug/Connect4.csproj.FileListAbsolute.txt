@@ -1,0 +1,10 @@
+C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\bin\Debug\Connect4.exe.config
+C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\bin\Debug\Connect4.exe
+C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\bin\Debug\Connect4.pdb
+C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\obj\Debug\Connect4.csprojResolveAssemblyReference.cache
+C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\obj\Debug\Connect4.Properties.Resources.resources
+C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\obj\Debug\Connect4.csproj.GenerateResource.Cache
+C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\obj\Debug\Connect4.exe
+C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\obj\Debug\Connect4.pdb
+C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\obj\Debug\Connect4.Connect4.resources
+C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\obj\Debug\Connect4.InputForm.resources
