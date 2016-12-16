@@ -55,6 +55,7 @@ namespace Connect4
         {
             Game.mode = Game.Mode.HumanVsHuman;
             PlayerInfoPanel.BringToFront();
+            StartUpPanel.Enabled = false;
         }
 
         private void humanVsComputerButton_Click(object sender, EventArgs e)
@@ -62,6 +63,7 @@ namespace Connect4
             Game.mode = Game.Mode.HumanVsComputer;
             SetDifficulty();
             PlayerInfoPanel.BringToFront();
+            StartUpPanel.Enabled = false;
         }
 
         private void computerVsHumanButton_Click(object sender, EventArgs e)
@@ -69,6 +71,7 @@ namespace Connect4
             Game.mode = Game.Mode.ComputerVsHuman;
             SetDifficulty();
             PlayerInfoPanel.BringToFront();
+            StartUpPanel.Enabled = false;
         }
 
         private void StartGame()
@@ -117,8 +120,9 @@ namespace Connect4
             hardToolStripMenuItem.Checked = true;
         }
 
-        private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
+        public void newGameToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            StartUpPanel.Enabled = true;
             StartUpPanel.BringToFront();
         }
     }

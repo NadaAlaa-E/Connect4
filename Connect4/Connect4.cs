@@ -48,7 +48,6 @@ namespace Connect4
             }
             columnRange[num_columns] = Connect4.ActiveForm.Width;
             panel2.Invalidate();
-            turnPanel.Invalidate();
             UpdateScore(new List<Disc>());
             if(Game.mode == Game.Mode.ComputerVsHuman) ComputerMove();
         }
@@ -61,6 +60,9 @@ namespace Connect4
         {
             SolidBrush brush = new SolidBrush(color[Game.turn]);
             e.Graphics.FillEllipse(brush, mouseX, 0, radius - eps, radius - eps);
+
+            if (Game.turn == 0) turnLabel.Text = Game.player_1.name + "'s turn.";
+            else turnLabel.Text = Game.player_2.name + "'s turn.";
         }
 
         private void panel1_MouseMove(object sender, MouseEventArgs e)
@@ -123,7 +125,6 @@ namespace Connect4
             }
             if (IsGameOver()) return false;
             panel2.Invalidate();
-            turnPanel.Invalidate();
             return true;
         }
       
@@ -206,7 +207,6 @@ namespace Connect4
 
         private void turnPanel_Paint(object sender, PaintEventArgs e)
         {
-            turnPanel.BackColor = color[Game.turn];
             if (Game.turn == 0) turnLabel.Text = Game.player_1.name + "'s turn.";
             else turnLabel.Text = Game.player_2.name + "'s turn.";
         }
@@ -219,6 +219,11 @@ namespace Connect4
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Connect4.ActiveForm.Close();
+        }
+
+        private void Connect4_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
         }
 
     }
