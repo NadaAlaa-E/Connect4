@@ -7,4 +7,4 @@ C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\obj\Debug\Connect4.csproj.Gene
 C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\obj\Debug\Connect4.exe
 C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\obj\Debug\Connect4.pdb
 C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\obj\Debug\Connect4.Connect4.resources
-C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\obj\Debug\Connect4.InputForm.resources
+C:\Users\nadaa\Desktop\Projects\Connect4\Connect4\obj\Debug\Connect4.StartPageForm.resources

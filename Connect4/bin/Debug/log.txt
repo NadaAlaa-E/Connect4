@@ -253,3 +253,358 @@ Log Entry : 9:49:29 PM Sunday, 11 December, 2016
   :
   :Player 1: N, Highest score: 1	Player 2: A, Highest score: 0
 -------------------------------
+
+Log Entry : 12:43:48 AM Monday, 12 December, 2016
+  :
+  :Player 1: Nada, Highest score: 1	Player 2: Hossam, Highest score: 0
+-------------------------------
+
+Log Entry : 12:45:26 AM Monday, 12 December, 2016
+  :
+  :Player 1: Nada, Highest score: 1	Player 2: Mohamed, Highest score: 0
+-------------------------------
+
+Log Entry : 10:44:58 PM Wednesday, 14 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Alaa, Highest score: 1
+-------------------------------
+
+Log Entry : 10:45:28 PM Wednesday, 14 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Alaa, Highest score: 2
+-------------------------------
+
+Log Entry : 11:23:31 PM Thursday, 15 December, 2016
+  :
+  :Player 1: Nada, Highest score: 1	Player 2: Alaa, Highest score: 0
+-------------------------------
+
+Log Entry : 11:23:45 PM Thursday, 15 December, 2016
+  :
+  :Player 1: Nada, Highest score: 1	Player 2: Alaa, Highest score: 1
+-------------------------------
+
+Log Entry : 11:24:14 PM Thursday, 15 December, 2016
+  :
+  :Player 1: Nada, Highest score: 1	Player 2: Alaa, Highest score: 2
+-------------------------------
+
+Log Entry : 11:24:28 PM Thursday, 15 December, 2016
+  :
+  :Player 1: Nada, Highest score: 2	Player 2: Alaa, Highest score: 2
+-------------------------------
+
+Log Entry : 11:43:40 PM Thursday, 15 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: A, Highest score: 1
+-------------------------------
+
+Log Entry : 11:51:25 PM Thursday, 15 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: A, Highest score: 1
+-------------------------------
+
+Log Entry : 12:01:39 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: A, Highest score: 1
+-------------------------------
+
+Log Entry : 12:02:49 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: A, Highest score: 2
+-------------------------------
+
+Log Entry : 12:03:35 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: A, Highest score: 3
+-------------------------------
+
+Log Entry : 12:04:42 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: A, Highest score: 4
+-------------------------------
+
+Log Entry : 12:07:28 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 1	Player 2: A, Highest score: 0
+-------------------------------
+
+Log Entry : 12:07:38 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 2	Player 2: A, Highest score: 0
+-------------------------------
+
+Log Entry : 12:08:12 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: H, Highest score: 1
+-------------------------------
+
+Log Entry : 12:08:32 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: H, Highest score: 2
+-------------------------------
+
+Log Entry : 12:38:06 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: S, Highest score: 1
+-------------------------------
+
+Log Entry : 12:39:18 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: S, Highest score: 2
+-------------------------------
+
+Log Entry : 12:39:47 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: S, Highest score: 3
+-------------------------------
+
+Log Entry : 12:41:56 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: S, Highest score: 4
+-------------------------------
+
+Log Entry : 12:46:15 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: A, Highest score: 1
+-------------------------------
+
+Log Entry : 1:01:43 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: A, Highest score: 1
+-------------------------------
+
+Log Entry : 1:03:20 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 0	Player 2: A, Highest score: 1
+-------------------------------
+
+Log Entry : 1:03:42 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 1	Player 2: A, Highest score: 1
+-------------------------------
+
+Log Entry : 1:56:03 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Alaa, Highest score: 1
+-------------------------------
+
+Log Entry : 2:18:31 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Alaa, Highest score: 1
+-------------------------------
+
+Log Entry : 2:18:38 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Alaa, Highest score: 2
+-------------------------------
+
+Log Entry : 2:18:43 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Alaa, Highest score: 3
+-------------------------------
+
+Log Entry : 2:18:55 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Alaa, Highest score: 4
+-------------------------------
+
+Log Entry : 2:45:47 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Alaa, Highest score: 1
+-------------------------------
+
+Log Entry : 2:55:51 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Computer, Highest score: 1
+-------------------------------
+
+Log Entry : 3:02:29 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 1	Player 2: Alaa, Highest score: 0
+-------------------------------
+
+Log Entry : 3:02:41 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 2	Player 2: Alaa, Highest score: 0
+-------------------------------
+
+Log Entry : 3:02:47 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 2	Player 2: Alaa, Highest score: 1
+-------------------------------
+
+Log Entry : 3:08:25 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 1	Player 2: Alaa, Highest score: 0
+-------------------------------
+
+Log Entry : 3:08:31 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 2	Player 2: Alaa, Highest score: 0
+-------------------------------
+
+Log Entry : 3:08:41 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 2	Player 2: Alaa, Highest score: 1
+-------------------------------
+
+Log Entry : 3:08:52 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 3	Player 2: Alaa, Highest score: 1
+-------------------------------
+
+Log Entry : 3:09:05 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Computer, Highest score: 1
+-------------------------------
+
+Log Entry : 3:09:11 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 1	Player 2: Computer, Highest score: 1
+-------------------------------
+
+Log Entry : 3:09:15 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 2	Player 2: Computer, Highest score: 1
+-------------------------------
+
+Log Entry : 3:09:21 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 2	Player 2: Computer, Highest score: 2
+-------------------------------
+
+Log Entry : 3:09:29 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 0	Player 2: Nada, Highest score: 1
+-------------------------------
+
+Log Entry : 3:09:33 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 0	Player 2: Nada, Highest score: 2
+-------------------------------
+
+Log Entry : 3:09:43 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 0	Player 2: Nada, Highest score: 3
+-------------------------------
+
+Log Entry : 3:10:07 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 0	Player 2: Nada, Highest score: 1
+-------------------------------
+
+Log Entry : 3:10:11 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 0	Player 2: Nada, Highest score: 2
+-------------------------------
+
+Log Entry : 3:13:48 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 0	Player 2: Nada, Highest score: 1
+-------------------------------
+
+Log Entry : 3:19:42 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Computer, Highest score: 1
+-------------------------------
+
+Log Entry : 3:20:14 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 1	Player 2: Nada, Highest score: 0
+-------------------------------
+
+Log Entry : 3:20:17 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 2	Player 2: Nada, Highest score: 0
+-------------------------------
+
+Log Entry : 3:20:21 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 3	Player 2: Nada, Highest score: 0
+-------------------------------
+
+Log Entry : 3:20:31 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 4	Player 2: Nada, Highest score: 0
+-------------------------------
+
+Log Entry : 3:20:34 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 5	Player 2: Nada, Highest score: 0
+-------------------------------
+
+Log Entry : 3:20:37 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 6	Player 2: Nada, Highest score: 0
+-------------------------------
+
+Log Entry : 3:20:44 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 7	Player 2: Nada, Highest score: 0
+-------------------------------
+
+Log Entry : 3:32:17 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 1	Player 2: Nada, Highest score: 0
+-------------------------------
+
+Log Entry : 3:32:29 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 2	Player 2: Nada, Highest score: 0
+-------------------------------
+
+Log Entry : 3:32:40 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 3	Player 2: Nada, Highest score: 0
+-------------------------------
+
+Log Entry : 3:33:09 AM Friday, 16 December, 2016
+  :
+  :Player 1: Computer, Highest score: 4	Player 2: Nada, Highest score: 0
+-------------------------------
+
+Log Entry : 3:33:32 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Computer, Highest score: 1
+-------------------------------
+
+Log Entry : 3:34:13 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Computer, Highest score: 2
+-------------------------------
+
+Log Entry : 3:34:54 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 1	Player 2: Computer, Highest score: 0
+-------------------------------
+
+Log Entry : 3:34:58 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 2	Player 2: Computer, Highest score: 0
+-------------------------------
+
+Log Entry : 3:35:03 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 3	Player 2: Computer, Highest score: 0
+-------------------------------
+
+Log Entry : 3:39:26 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 1	Player 2: A, Highest score: 0
+-------------------------------
+
+Log Entry : 3:39:36 AM Friday, 16 December, 2016
+  :
+  :Player 1: N, Highest score: 2	Player 2: A, Highest score: 0
+-------------------------------
+
+Log Entry : 3:50:27 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 1	Player 2: Computer, Highest score: 0
+-------------------------------
+
+Log Entry : 3:50:55 AM Friday, 16 December, 2016
+  :
+  :Player 1: Nada, Highest score: 0	Player 2: Computer, Highest score: 1
+-------------------------------

@@ -34,7 +34,7 @@ namespace Connect4
 
             SolidBrush brush = new SolidBrush(Color.Black);
             Graphics g = panel1.CreateGraphics();
-            float x = eps/2, y = panel1.Height - radius;
+            float x = eps / 2, y = panel1.Height - radius;
             for (int i = 0; i < num_rows; i++)
             {
                 for (int j = 0; j < num_columns; j++)
@@ -43,13 +43,14 @@ namespace Connect4
                     g.FillEllipse(brush, x, y, radius - eps, radius - eps);
                     x += radius;
                 }
-                x = eps/2;
+                x = eps / 2;
                 y -= radius;
             }
             columnRange[num_columns] = Connect4.ActiveForm.Width;
             panel2.Invalidate();
             turnPanel.Invalidate();
             UpdateScore(new List<Disc>());
+            if(Game.mode == Game.Mode.ComputerVsHuman) ComputerMove();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -93,30 +94,48 @@ namespace Connect4
             if (mouseX == mouseX_prev) return;
             panel2.Invalidate();
         }
-        private void OnMouseClick()
+        private bool PlayerMove()
         {
             int column = FindColumn();
-            int turn = Game.turn;
+            return ApplyMove(column);
+        }
+        private void ComputerMove()
+        {
+            Tuple<int, int> computerMove = Game.MiniMax(Game.difficulty, Game.turn, true);
+            int column = computerMove.Item2;
+            ApplyMove(column);
+        }
+        private bool ApplyMove(int column)
+        {
             bool canAdd = Game.board.AddDisc(new Disc(column, Game.turn));
             if (canAdd == true)
             {
                 Graphics g = panel1.CreateGraphics();
-                SolidBrush brush = new SolidBrush(color[turn]);
-                float y = panel1.Height - radius - (float)(Game.board.cells[column][Game.board.cells[column].Count - 1].row) * radius;
-                g.FillEllipse(brush, mouseX, y, radius - eps, radius - eps);
+                SolidBrush brush = new SolidBrush(color[Game.turn]);
+                float y = panel1.Height - radius - (float)(Game.board.cells[column][Game.board.sizeOfCol[column] - 1].row) * radius;
+                float x = columnRange[column];
+                g.FillEllipse(brush, x, y, radius - eps, radius - eps);
+                Game.turn = (Game.turn + 1) % 2;
             }
-            if (IsGameOver()) return;;
+            else
+            {
+                return false;
+            }
+            if (IsGameOver()) return false;
             panel2.Invalidate();
             turnPanel.Invalidate();
+            return true;
         }
-
+      
         private void panel1_MouseClick(object sender, MouseEventArgs e)
         {
-            OnMouseClick();
+            if (PlayerMove() && Game.mode != Game.Mode.HumanVsHuman)
+                ComputerMove();
         }
         private void panel2_MouseClick(object sender, MouseEventArgs e)
         {
-            OnMouseClick();
+            if (PlayerMove() && Game.mode != Game.Mode.HumanVsHuman)
+                ComputerMove();
         }
 
         private bool IsGameOver()
@@ -148,8 +167,8 @@ namespace Connect4
         {
             using (StreamWriter w = File.AppendText("log.txt"))
             {
-                Log("Player 1: " + Game.player_1.name+ ", Highest score: " + Game.player_1.score.ToString() +
-                "\tPlayer 2: " + Game.player_2.name+ ", Highest score: " + Game.player_2.score.ToString(), w);
+                Log("Player 1: " + Game.player_1.name + ", Highest score: " + Game.player_1.score.ToString() +
+                "\tPlayer 2: " + Game.player_2.name + ", Highest score: " + Game.player_2.score.ToString(), w);
             }
         }
         private void UpdateScore(List<Disc> success)
@@ -161,7 +180,7 @@ namespace Connect4
             for (int i = 0; i < success.Count; i++)
             {
                 float y = panel1.Height - radius - (float)(success[i].row) * radius;
-                float x = (float)(success[i].column) * radius + eps/2;
+                float x = (float)(success[i].column) * radius + eps / 2;
                 g.FillEllipse(brush, x, y, radius - eps, radius - eps);
             }
         }
@@ -185,16 +204,21 @@ namespace Connect4
             return columnRange.Length - 1;
         }
 
-        private void newGameBtn_Click(object sender, EventArgs e)
-        {
-            Initialize();
-        }
-
         private void turnPanel_Paint(object sender, PaintEventArgs e)
         {
             turnPanel.BackColor = color[Game.turn];
             if (Game.turn == 0) turnLabel.Text = Game.player_1.name + "'s turn.";
             else turnLabel.Text = Game.player_2.name + "'s turn.";
+        }
+
+        private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Initialize();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Connect4.ActiveForm.Close();
         }
 
     }

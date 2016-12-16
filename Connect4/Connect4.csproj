@@ -52,12 +52,11 @@
       <DependentUpon>Connect4.cs</DependentUpon>
     </Compile>
     <Compile Include="Disc.cs" />
-    <Compile Include="Ellipse.cs" />
-    <Compile Include="InputForm.cs">
+    <Compile Include="StartPageForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InputForm.Designer.cs">
-      <DependentUpon>InputForm.cs</DependentUpon>
+    <Compile Include="StartPageForm.Designer.cs">
+      <DependentUpon>StartPageForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Game.cs" />
     <Compile Include="Player.cs" />
@@ -66,8 +65,8 @@
     <EmbeddedResource Include="Connect4.resx">
       <DependentUpon>Connect4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InputForm.resx">
-      <DependentUpon>InputForm.cs</DependentUpon>
+    <EmbeddedResource Include="StartPageForm.resx">
+      <DependentUpon>StartPageForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -17,6 +17,5 @@ namespace Connect4
             this.name = name;
             this.score = 0;
         }
-
     }
 }

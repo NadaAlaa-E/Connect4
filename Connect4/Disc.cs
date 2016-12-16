@@ -12,6 +12,7 @@ namespace Connect4
         public int row;
         public int column;
         public int color;
+        public Disc() { color = -1; }
         public Disc(int column, int color)
         {
             this.column = column;
